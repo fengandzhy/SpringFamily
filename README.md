@@ -1,4 +1,4 @@
-# <img src="src/docs/asciidoc/images/spring-framework.png" width="80" height="80"> Spring Family
+# <img src="docs/images/spring-framework.png" width="80" height="80"> Spring Family
 
 This respository is for the code based on spring framework. Currently, it includes below projects.  
 

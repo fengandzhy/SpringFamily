@@ -1,4 +1,4 @@
-package com.citi.springsecurity.config;
+package com.citi.springsecurity.demo01.config;
 
 
 import org.springframework.context.annotation.Configuration;

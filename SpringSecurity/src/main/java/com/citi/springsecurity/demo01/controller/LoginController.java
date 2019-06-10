@@ -1,4 +1,4 @@
-package com.citi.springsecurity.controller;
+package com.citi.springsecurity.demo01.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

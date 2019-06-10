@@ -1,4 +1,4 @@
-package com.citi.springsecurity.config;
+package com.citi.springsecurity.demo01.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -15,7 +15,7 @@ import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.citi.springsecurity.service.CustomUserService;
+import com.citi.springsecurity.demo01.service.CustomUserService;
 
 @Configuration
 @EnableWebSecurity 

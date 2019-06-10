@@ -1,4 +1,4 @@
-package com.citi.springsecurity.bean;
+package com.citi.springsecurity.demo01.bean;
 
 import static javax.persistence.GenerationType.IDENTITY;
 

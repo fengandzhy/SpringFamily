@@ -1,4 +1,4 @@
-package com.citi.springsecurity.service;
+package com.citi.springsecurity.demo01.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -15,9 +15,9 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Service;
 
-import com.citi.springsecurity.bean.SysRole;
-import com.citi.springsecurity.bean.SysUser;
-import com.citi.springsecurity.repository.SysUserRepository;
+import com.citi.springsecurity.demo01.bean.SysRole;
+import com.citi.springsecurity.demo01.bean.SysUser;
+import com.citi.springsecurity.demo01.repository.SysUserRepository;
 
 @Service("userDetailsService")
 public class CustomUserService implements UserDetailsService{

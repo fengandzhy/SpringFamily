@@ -1,4 +1,4 @@
-package com.citi.springsecurity.bean;
+package com.citi.springsecurity.demo01.bean;
 
 public class Msg {
 	private String title;

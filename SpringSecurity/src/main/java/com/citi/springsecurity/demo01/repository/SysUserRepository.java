@@ -1,9 +1,8 @@
-package com.citi.springsecurity.repository;
+package com.citi.springsecurity.demo01.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-
-import com.citi.springsecurity.bean.SysUser;
+import com.citi.springsecurity.demo01.bean.SysUser;
 
 public interface SysUserRepository extends JpaRepository<SysUser, Integer> {
 	

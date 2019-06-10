@@ -1,4 +1,4 @@
-package com.citi.springboot.entiry;
+package com.citi.springboot.cros.entiry;
 
 public class RequestLoginBean {
 	private String username;

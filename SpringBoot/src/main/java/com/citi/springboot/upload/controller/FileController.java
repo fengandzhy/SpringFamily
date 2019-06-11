@@ -17,7 +17,7 @@ import com.citi.springboot.upload.domain.JsonData;
 @Controller
 public class FileController {
 	
-	private static final String filePath = "/images/";
+	private static final String filePath = "/src/main/resources/attachments/";
 	
 	
 	@ResponseBody

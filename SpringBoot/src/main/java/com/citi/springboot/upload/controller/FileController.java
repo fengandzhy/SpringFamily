@@ -39,7 +39,7 @@ public class FileController {
 		System.out.println("转换后的文件名："+fileName);
 		
 		File dest = new File(filePath + fileName);
-		System.out.println(dest.isAbsolute());
+//		System.out.println(dest.isAbsolute());
 		
 		try {
 			file.transferTo(dest);

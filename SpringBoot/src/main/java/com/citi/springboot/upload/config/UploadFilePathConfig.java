@@ -13,9 +13,12 @@ public class UploadFilePathConfig implements WebMvcConfigurer{
 	@Value("${file.staticAccessPath}")
     private String staticAccessPath;
 	
+	@Value("${file.uploadFolder}")
+    private String filePath;
+	
 	@Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler(staticAccessPath).addResourceLocations("file:" + System.getProperty(CommUtil.USER_DIR));
+        registry.addResourceHandler(staticAccessPath).addResourceLocations("file:" + System.getProperty(CommUtil.USER_DIR)+filePath);
     }
 	
 }

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -15,9 +16,10 @@ import org.springframework.web.multipart.MultipartFile;
 import com.citi.springboot.upload.domain.JsonData;
 
 @Controller
-public class FileController {
+public class FileController {	
 	
-	private static final String filePath = "/src/main/resources/attachments/";
+	@Value("${file.uploadFolder}")
+    private String filePath;
 	
 	
 	@ResponseBody

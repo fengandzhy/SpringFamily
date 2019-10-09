@@ -1,4 +1,4 @@
-package com.citi.springboot.upload.controller;
+package org.zhouhy.springboot.upload.controller;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.citi.springboot.upload.domain.JsonData;
+import org.zhouhy.springboot.upload.domain.JsonData;
 
 @Controller
 public class FileController {	

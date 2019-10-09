@@ -1,4 +1,4 @@
-package com.citi.springboot.upload.config;
+package org.zhouhy.springboot.upload.config;
 
 import javax.servlet.MultipartConfigElement;
 import org.springframework.boot.web.servlet.MultipartConfigFactory;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.unit.DataSize;
 
-import com.citi.springboot.util.CommUtil;
+import org.zhouhy.springboot.util.CommUtil;
 
 @Configuration
 public class UploadFileConfig {

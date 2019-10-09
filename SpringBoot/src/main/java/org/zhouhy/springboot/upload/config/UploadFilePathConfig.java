@@ -1,11 +1,11 @@
-package com.citi.springboot.upload.config;
+package org.zhouhy.springboot.upload.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import com.citi.springboot.util.CommUtil;
+import org.zhouhy.springboot.util.CommUtil;
 
 @Configuration
 public class UploadFilePathConfig implements WebMvcConfigurer{

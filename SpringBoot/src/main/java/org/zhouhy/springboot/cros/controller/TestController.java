@@ -1,4 +1,4 @@
-package com.citi.springboot.cros.controller;
+package org.zhouhy.springboot.cros.controller;
 
 
 import org.json.simple.JSONObject;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.citi.springboot.cros.entiry.RequestLoginBean;
+import org.zhouhy.springboot.cros.entiry.RequestLoginBean;
 
 import org.springframework.http.MediaType;
 

@@ -1,4 +1,4 @@
-package com.citi.springboot.util;
+package org.zhouhy.springboot.util;
 
 public class CommUtil {
 	

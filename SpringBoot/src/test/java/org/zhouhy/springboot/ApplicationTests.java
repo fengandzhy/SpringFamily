@@ -1,4 +1,4 @@
-package com.citi.springboot;
+package org.zhouhy.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

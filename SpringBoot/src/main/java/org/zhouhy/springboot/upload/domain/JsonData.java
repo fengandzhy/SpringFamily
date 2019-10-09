@@ -1,4 +1,4 @@
-package com.citi.springboot.upload.domain;
+package org.zhouhy.springboot.upload.domain;
 
 import java.io.Serializable;
 
